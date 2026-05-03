@@ -43,13 +43,7 @@ A premium, full-stack web application designed for teams to create projects, ass
    cd frontend && npm run dev
    ```
 
-## 🌐 Deployment (Railway)
 
-This repository is configured as a monorepo optimized for deployment on platforms like Railway. 
-
-1. Create a new project on Railway from your GitHub repo.
-2. Add your environment variables (`MONGO_URI`, `JWT_SECRET`, `NODE_ENV=production`) to the Railway dashboard.
-3. Railway will automatically detect the root `package.json`, install dependencies, build the React frontend, and start the Express server serving the production build.
 
 ## 📝 Usage Guide
 1. **Register** a new account. The first account should ideally be an Admin (you can change the default role in the backend models if needed for testing, or manually update via DB).
